@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Sora:wght@100..800&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+}
+body{
+     background-color: #121826;
+     background-image: url(./asset/Background_image.svg);
+       font-family: "Sora", serif;
+
+}
+.main_heading{
+      text-align: center;
+      padding-top:40px ;
+      color: #E5E7EB;
+      font-weight: 600;
+}
+.main_text{
+     text-align: center;
+     margin: 10px;
+}
+.main_block{
+     display: flex;
+     justify-content: center;
+}
+.block{
+     width: 287px;
+     height: 400px;
+     margin: 30px;
+     padding-left:18px ;
+     background-color: #212936;
+}
+h2{
+     color: #E5E7EB;
+     font-size: 16px;
+     font-weight: 600;
+     margin-top: 15px;
+
+}
+p{
+     color: #9DA3AE;
+     font-size: 14px;
+     margin-top: 10px;
+     margin-bottom: 20px;
+
+}
+span{
+     display: inline-block;
+     width: 40px;
+     height: 40px;
+     background-color: #FBE5E6;
+     border-radius: 50%;
+     text-align:center;
+     padding-top: 11px;
+     margin-top: 20px;
+}
+img ,.block{
+     border-radius: 15px;
+}
